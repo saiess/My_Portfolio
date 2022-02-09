@@ -1,0 +1,33 @@
+.penpic {
+    position: absolute;
+    left: 12%;
+    top: 0;
+    right: auto;
+    bottom: auto;
+    width: 80%;
+    border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+        will-change: transform;
+    transform: translate3d(24.1326%, 0px, 0px) scale3d(1, 1, 1) rotateX(
+    0deg
+    ) rotateY(
+    0deg
+    ) rotateZ(
+    0deg
+    ) skew(
+    0deg
+    , 
+    0deg
+    );
+        transform-style: preserve-3d;
+}
+
+.penhead {
+    width: 100%;
+    border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
