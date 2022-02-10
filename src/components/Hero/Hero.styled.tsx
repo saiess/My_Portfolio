@@ -21,3 +21,24 @@ export const Inheroleft = styled.div`
   flex-direction: column;
   justify-content: space-between;
 `;
+
+export const Divpic = styled.div`
+  position: relative;
+  width: 10rem;
+  height: 10.5rem;
+  left: 21.3rem;
+  top: 11.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+
+`;
+
+export const Imghero = styled.img`
+  width: 100%;
+  height: 100%;
+  transform: scaleX(-1);
+`;

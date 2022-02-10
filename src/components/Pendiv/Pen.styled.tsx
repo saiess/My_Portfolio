@@ -8,6 +8,7 @@ export const Pendiv = styled.div`
   margin-left: auto;
   justify-content: center;
   margin-top: 11rem;
+  width:100%;
 `;
 
 export const Divblock = styled.div`
@@ -23,7 +24,7 @@ export const Intodivblock = styled.div`
   top: 0;
   right: auto;
   bottom: 0;
-  width: 100%;
+  width: 80%;
   height: 161px;
   margin-right: auto;
   margin-left: auto;
