@@ -8,9 +8,14 @@ import Hero from "../components/Hero/Hero";
 import Pen from "../components/Pendiv/Pen";
 import { Layout } from "../styles/GlobalComponents/Container.styled";
 
+// import React, { useState, useEffect, useRef } from 'react'
+
 const Home: NextPage = () => {
+
   return (
-    <div className="w-full flex flex-col items-center justify-center">
+    <div
+      className="w-full flex flex-col items-center justify-center lololo"
+    >
       <Layout>
         <div className="w-full flex justify-center">
           <Header />
@@ -23,6 +28,7 @@ const Home: NextPage = () => {
         <Tech />
         {/* <Test/> */}
       </Layout>
+      <div className="h-screen"></div>
     </div>
   );
 };

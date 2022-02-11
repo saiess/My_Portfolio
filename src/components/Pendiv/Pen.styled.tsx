@@ -8,7 +8,9 @@ export const Pendiv = styled.div`
   margin-left: auto;
   justify-content: center;
   margin-top: 11rem;
-  width:100%;
+  margin-bottom: 11rem;
+  width: 100%;
+  height: 20em;
 `;
 
 export const Divblock = styled.div`
@@ -32,15 +34,40 @@ export const Intodivblock = styled.div`
 
 export const Imglink = styled.a`
   position: absolute;
-  left: 8.5%;
   top: 0;
   right: auto;
   bottom: auto;
   z-index: 100;
-  width: 29%;
+  width: 24%;
+  transition: 2s;
 `;
 
 export const Imgbody = styled.img`
+  position: absolute;
+  top: 0;
+  right: auto;
+  bottom: auto;
+  width: 66%;
+  border: 0;
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+  will-change: transform;
+  transform: translate3d(24.1326%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+  rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+  transition: 2s;
+`;
+
+export const Imghead = styled.img`
+  width: 100%;
+  border: 0;
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+`;
+
+export const Imgbody2 = styled.img`
   position: absolute;
   left: -7.2%;
   top: 0;
@@ -57,7 +84,7 @@ export const Imgbody = styled.img`
   transform-style: preserve-3d;
 `;
 
-export const Imghead = styled.img`
+export const Imghead2 = styled.img`
   width: 100%;
   border: 0;
   max-width: 100%;

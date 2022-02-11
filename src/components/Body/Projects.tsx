@@ -1,9 +1,10 @@
 import React from "react";
-import { ProjectCard } from "./project.styled";
+import { ProjectCard, ProjectInfo, ProjectPic } from "./project.styled";
 // import Image from "next/image";
-// import bi from '../../../public/assets/bi.png'
+// import bi from "../../../public/assets/bi.png";
 // import car from "./images/RentalCar.png";
-// import gestion from './images/gestion.gif';
+// import gestion from "./images/gestion.gif";
+import Link from "next/link";
 const Projects: React.FC = () => {
   return (
     <div className="w-full flex justify-center">
@@ -17,11 +18,25 @@ const Projects: React.FC = () => {
             </span>
 
             <div className="w-full flex justify-between">
-              <h1 className="text-slate-300 text-6xl font-bold">
-                Rental Car Website
-              </h1>
+              <ProjectInfo>
+                <h1 className="text-slate-300 text-4xl pb-8 font-bold">
+                  Rental Car Website
+                </h1>
+                <p className="text-slate-300 text-lg mb-6 font-bold">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos,
+                  laboriosam magni consequatur eum quo commodi quam eveniet
+                  maiores nobis, vel fugit at! Quos possimus nesciunt nulla
+                  facilis necessitatibus? Voluptas, veritatis.
+                </p>
+                <Link href="/google.com">
+                  <a className="bg-orange-600 text-lg py-2 px-4 rounded-2xl">
+                    View More
+                  </a>
+                </Link>
+              </ProjectInfo>
               <ProjectCard>
-                {/* <Image src={car} alt="" className="w-full rounded-3xl" /> */}
+                <ProjectPic src="/RentalCar.png" className="rotate-12" />
+                {/* <Image src={car} alt="" className="rounded-3xl rotate-12"/> */}
               </ProjectCard>
             </div>
           </div>
@@ -32,23 +47,53 @@ const Projects: React.FC = () => {
 
             <div className="w-full flex justify-between">
               <ProjectCard>
+                <ProjectPic src="/gestion.gif" className="rotate-12" />
                 {/* <Image src={gestion} alt="" className="w-full rounded-3xl" /> */}
               </ProjectCard>
-              <h1 className="text-slate-300 text-center">
-                Gestion de Livraison
-              </h1>
+              <ProjectInfo>
+                <h1 className="text-slate-300 text-4xl pb-8 font-bold">
+                  Gestion de Livraison
+                </h1>
+                <p className="text-slate-300 text-xl mt-4 font-bold">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos,
+                  laboriosam magni consequatur eum quo commodi quam eveniet
+                  maiores nobis, vel fugit at! Quos possimus nesciunt nulla
+                  facilis necessitatibus? Voluptas, veritatis.
+                </p>
+                <Link href="/google.com">
+                  <a className="bg-orange-600 text-lg py-2 px-4 rounded-2xl">
+                    View More
+                  </a>
+                </Link>
+              </ProjectInfo>
             </div>
           </div>
+
           <div className="w-full flex flex-col justify-between text-6xl font-bold">
             <span className="text-orange-400 pb-4 pl-8 text-lg italic">
               ~ Project 3
             </span>
 
             <div className="w-full flex justify-between">
-              <h1 className="text-slate-300 text-6xl font-bold">
-                Gestion de Livraison
-              </h1>
+              <ProjectInfo>
+                <h1 className="text-slate-300 text-4xl pb-8 font-bold">
+                  Crypto Exchange Website
+                </h1>
+                <p className="text-slate-300 text-xl font-bold">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos,
+                  laboriosam magni consequatur eum quo commodi quam eveniet
+                  maiores nobis, vel fugit at! Quos possimus nesciunt nulla
+                  facilis necessitatibus? Voluptas, veritatis.
+                </p>
+                <Link href="/google.com">
+                  <a className="bg-orange-600 text-lg py-2 px-4 rounded-2xl">
+                    View More
+                  </a>
+                </Link>
+              </ProjectInfo>
+
               <ProjectCard>
+                <ProjectPic src="/bi.png" className="rotate-12" />
                 {/* <Image src={bi} alt="" className="w-full rounded-3xl" /> */}
               </ProjectCard>
             </div>
