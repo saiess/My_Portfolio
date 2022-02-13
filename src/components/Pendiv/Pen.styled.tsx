@@ -30,6 +30,7 @@ export const Intodivblock = styled.div`
   height: 161px;
   margin-right: auto;
   margin-left: auto;
+  will-change: transform;
 `;
 
 export const Imglink = styled.a`
@@ -39,7 +40,8 @@ export const Imglink = styled.a`
   bottom: auto;
   z-index: 100;
   width: 24%;
-  transition: 2s;
+  transition: 1.4s;
+  transition-timing-function: cubic-bezier(0, 0.98, 1, 0.01);
 `;
 
 export const Imgbody = styled.img`
@@ -52,11 +54,11 @@ export const Imgbody = styled.img`
   max-width: 100%;
   vertical-align: middle;
   display: inline-block;
-  will-change: transform;
   transform: translate3d(24.1326%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
-  rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
   transform-style: preserve-3d;
-  transition: 2s;
+  transition: 1.4s;
+  transition-timing-function: cubic-bezier(0, 0.98, 1, 0.01);
 `;
 
 export const Imghead = styled.img`

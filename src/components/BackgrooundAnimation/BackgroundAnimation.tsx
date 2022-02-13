@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
 const BackgroundAnimation = () => (
-  <div className='w-1/2'>
+  <div className="w-1/2">
     <svg
       className="BgAnimation__svg"
       viewBox="0 0 602 602"

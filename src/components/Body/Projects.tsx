@@ -29,7 +29,7 @@ const Projects: React.FC = () => {
                   facilis necessitatibus? Voluptas, veritatis.
                 </p>
                 <Link href="/google.com">
-                  <a className="bg-orange-600 text-lg py-2 px-4 rounded-2xl">
+                  <a className="bg-orange-600 text-base py-2 px-4 rounded-lg">
                     View More
                   </a>
                 </Link>
@@ -47,8 +47,7 @@ const Projects: React.FC = () => {
 
             <div className="w-full flex justify-between">
               <ProjectCard>
-                <ProjectPic src="/gestion.gif" className="rotate-12" />
-                {/* <Image src={gestion} alt="" className="w-full rounded-3xl" /> */}
+                <ProjectPic src="/bi.jpg" className="rotate-12" />
               </ProjectCard>
               <ProjectInfo>
                 <h1 className="text-slate-300 text-4xl pb-8 font-bold">
@@ -61,7 +60,7 @@ const Projects: React.FC = () => {
                   facilis necessitatibus? Voluptas, veritatis.
                 </p>
                 <Link href="/google.com">
-                  <a className="bg-orange-600 text-lg py-2 px-4 rounded-2xl">
+                  <a className="bg-orange-600 text-base py-2 px-4 rounded-lg">
                     View More
                   </a>
                 </Link>
@@ -86,14 +85,14 @@ const Projects: React.FC = () => {
                   facilis necessitatibus? Voluptas, veritatis.
                 </p>
                 <Link href="/google.com">
-                  <a className="bg-orange-600 text-lg py-2 px-4 rounded-2xl">
+                  <a className="bg-orange-600 text-base py-2 px-4 rounded-lg">
                     View More
                   </a>
                 </Link>
               </ProjectInfo>
 
               <ProjectCard>
-                <ProjectPic src="/bi.png" className="rotate-12" />
+                <ProjectPic src="/28.png" className="rotate-12" />
                 {/* <Image src={bi} alt="" className="w-full rounded-3xl" /> */}
               </ProjectCard>
             </div>

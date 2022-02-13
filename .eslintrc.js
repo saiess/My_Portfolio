@@ -19,7 +19,8 @@ module.exports = {
   },
   plugins: ["react", "@typescript-eslint"],
   rules: {
-    "require-jsdoc":"off"
+    "require-jsdoc": "off",
+    "react-hooks/exhaustive-deps": "off",
   },
   settings: {
     react: {

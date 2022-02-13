@@ -1,7 +1,9 @@
 /* eslint-disable @next/next/link-passhref */
 import type { NextPage } from "next";
+import Contact from "../components/Body/Contact";
 import Projects from "../components/Body/Projects";
 import Tech from "../components/Body/Tech";
+import Footer from "../components/Footer/Footer";
 // import Test from "../components/Body/test";
 import Header from "../components/Header/Header";
 import Hero from "../components/Hero/Hero";
@@ -11,11 +13,8 @@ import { Layout } from "../styles/GlobalComponents/Container.styled";
 // import React, { useState, useEffect, useRef } from 'react'
 
 const Home: NextPage = () => {
-
   return (
-    <div
-      className="w-full flex flex-col items-center justify-center lololo"
-    >
+    <div className="w-full flex flex-col items-center justify-center lololo">
       <Layout>
         <div className="w-full flex justify-center">
           <Header />
@@ -26,9 +25,10 @@ const Home: NextPage = () => {
       <Layout>
         <Projects />
         <Tech />
-        {/* <Test/> */}
+        <Contact />
       </Layout>
-      <div className="h-screen"></div>
+      <div className="" style={{ height: "32em" }}></div>
+      <Footer />
     </div>
   );
 };

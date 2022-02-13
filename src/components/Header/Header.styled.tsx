@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
@@ -13,7 +13,7 @@ export const Div1 = styled.div`
   flex-direction: row;
   align-content: center;
   align-items: center;
-  
+
   width: 20%;
 `;
 export const Div2 = styled.div`
@@ -40,21 +40,20 @@ export const NavLink = styled.a`
     opacity: 1;
     cursor: pointer;
     text-decoration: underline;
-    font-style: italic;
   }
 `;
 
-// Social Icons 
+// Social Icons
 
-export const SocialIcons = styled.a`
-transition: 0.3s ease;
-color: white;
-border-radius: 50px;
+export const SocialTalk = styled.a`
+  transition: 0.3s ease;
+  color: white;
+  border-radius: 50px;
   padding: 8px;
-&:hover {
+  display: flex;
+  &:hover {
     background-color: #212d45;
     transform: scale(1.2);
     cursor: pointer;
-    
   }
-`
+`;

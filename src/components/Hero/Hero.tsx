@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
-import {  Heroleft, Inheroleft, Section } from "./Hero.styled";
+import { Heroleft, Inheroleft, Section } from "./Hero.styled";
 import BgAnimation from "../BackgrooundAnimation/BackgroundAnimation";
 import { useTrail, a } from "@react-spring/web";
 
@@ -40,7 +40,7 @@ const Hero: React.FC = () => {
             <h1 className="text-8xl pt-3 text-slate-300 font-bold">
               I'm Said Essalami.
             </h1>
-            <p className="text-xl pt-6 text-slate-300 italic">
+            <p className="text-xl pt-6 text-slate-300">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam
               quae mollitia laboriosam consequuntur modi iure dolor repellendus
               enim aut! Eius quisquam harum veritatis mollitia, voluptas non
