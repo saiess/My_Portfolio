@@ -7,12 +7,18 @@ import {
   Intodivblock,
   Pendiv,
 } from "./Pen.styled";
-// import penhead from "../../../public/penhead.png";
-// import penbody from "../../../public/penbody.png";
 
-const Pen: React.FC = () => {
+type Props = {
+  show: boolean;
+};
+
+const Pen: React.FC<Props> = ({ show }: Props) => {
   const targetRef = useRef(null);
   const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    setIsVisible(show);
+  }, [show]);
 
   const callbackFunction = (entries: any) => {
     const [entry] = entries;
