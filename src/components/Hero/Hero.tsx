@@ -38,7 +38,7 @@ const Hero: React.FC = () => {
               Hello
             </span>
             <h1 className="text-8xl pt-3 text-slate-300 font-bold">
-              I'm Said Essalami.
+              I'm ElMehdi Rammach.
             </h1>
             <p className="text-xl pt-6 text-slate-300">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam

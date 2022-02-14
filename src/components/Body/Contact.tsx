@@ -34,12 +34,12 @@ const Contact: React.FC = () => {
               <Dots className="bg-cyan-500" />
             </div>
             <div className="h-5/6 flex flex-col rounded-xl justify-center">
-              <h1 className="text-3xl font-semibold">Said Essalami</h1>
+              <h1 className="text-3xl font-semibold">ElMehdi Rammach</h1>
               <span className="w-10 h-1 mb-8 rounded-3xl bg-gradient-to-r from-cyan-500 to-orange-500" />
               <p className="flex">
                 <MdOutlineAttachEmail className="text-2xl mr-4" />
                 <span className="text-base font-bold">
-                  saidessalami0@gmail.com
+                  ElMehdi.Rammach0@gmail.com
                 </span>
               </p>
               <p className="flex items-center">
