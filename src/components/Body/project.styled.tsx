@@ -18,5 +18,6 @@ export const ProjectInfo = styled.div`
 
 export const ProjectPic = styled.img`
   width: 100%;
+  height: 100%;
   border-radius: 30px;
 `;

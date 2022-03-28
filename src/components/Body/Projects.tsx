@@ -1,4 +1,3 @@
-import React from "react";
 import { ProjectCard, ProjectInfo, ProjectPic } from "./project.styled";
 // import Image from "next/image";
 // import bi from "../../../public/assets/bi.png";
@@ -20,15 +19,17 @@ const Projects: React.FC = () => {
             <div className="w-full flex justify-between">
               <ProjectInfo>
                 <h1 className="text-slate-300 text-4xl pb-8 font-bold">
-                  Rental Car Website
+                  interactive Design Website Rental Car
                 </h1>
                 <p className="text-slate-300 text-lg mb-6 font-bold">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos,
-                  laboriosam magni consequatur eum quo commodi quam eveniet
-                  maiores nobis, vel fugit at! Quos possimus nesciunt nulla
-                  facilis necessitatibus? Voluptas, veritatis.
+                  Description: <br />
+                  an example of interactive design website for Renting various
+                  kind of vehicles.
+                  <br />
+                  Technologies: <br />
+                  Javascript | HTML5 | CSS3.
                 </p>
-                <Link href="/google.com">
+                <Link href="https://saiess.github.io/Projet-rental-car-website/">
                   <a className="bg-orange-600 text-base py-2 px-4 rounded-lg">
                     View More
                   </a>
@@ -47,19 +48,22 @@ const Projects: React.FC = () => {
 
             <div className="w-full flex justify-between">
               <ProjectCard>
-                <ProjectPic src="/bi.jpg" className="rotate-12" />
+                <ProjectPic src="/vac.png" className="rotate-12" />
               </ProjectCard>
               <ProjectInfo>
                 <h1 className="text-slate-300 text-4xl pb-8 font-bold">
-                  Gestion de Livraison
+                  Covid 19 Vaccination Campaign
                 </h1>
                 <p className="text-slate-300 text-xl mt-4 font-bold">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos,
-                  laboriosam magni consequatur eum quo commodi quam eveniet
-                  maiores nobis, vel fugit at! Quos possimus nesciunt nulla
-                  facilis necessitatibus? Voluptas, veritatis.
+                  Description: <br />
+                  Covid 19 Vaccination Campaign an automated system in the form
+                  of a web application (Node Js: Api Rest/ React Js).
+                  <br />
+                  Technologies: <br />
+                  ReactJs | Typescript | Tailwind CSS | NodeJs(express) |
+                  MongoDB.
                 </p>
-                <Link href="/google.com">
+                <Link href="https://github.com/saiess/Projet-Fil-Rouge-SWAPI-Laravel">
                   <a className="bg-orange-600 text-base py-2 px-4 rounded-lg">
                     View More
                   </a>
@@ -76,15 +80,18 @@ const Projects: React.FC = () => {
             <div className="w-full flex justify-between">
               <ProjectInfo>
                 <h1 className="text-slate-300 text-4xl pb-8 font-bold">
-                  Crypto Exchange Website
+                  Swapi Exchange goods Website
                 </h1>
                 <p className="text-slate-300 text-xl font-bold">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos,
-                  laboriosam magni consequatur eum quo commodi quam eveniet
-                  maiores nobis, vel fugit at! Quos possimus nesciunt nulla
-                  facilis necessitatibus? Voluptas, veritatis.
+                  Description: <br />
+                  The SWAPI project is simply a modernized barter website
+                  application that allows users to trade items for something
+                  they would like to have.
+                  <br />
+                  Technologies: <br />
+                  Laravel | Javascript | SASS | CSS3 | HTL5 | Bootstrap | Mysql.
                 </p>
-                <Link href="/google.com">
+                <Link href="https://github.com/saiess/vaccination-client">
                   <a className="bg-orange-600 text-base py-2 px-4 rounded-lg">
                     View More
                   </a>
@@ -92,7 +99,7 @@ const Projects: React.FC = () => {
               </ProjectInfo>
 
               <ProjectCard>
-                <ProjectPic src="/28.png" className="rotate-12" />
+                <ProjectPic src="/swapi.png" className="rotate-12" />
                 {/* <Image src={bi} alt="" className="w-full rounded-3xl" /> */}
               </ProjectCard>
             </div>

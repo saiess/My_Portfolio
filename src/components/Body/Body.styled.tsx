@@ -58,6 +58,7 @@ export const ContactIcons = styled.a`
   border-radius: 50px;
   padding: 8px;
   display: flex;
+  align-items: center;
   &:hover {
     background-color: #212d45;
     transform: scale(1.2);

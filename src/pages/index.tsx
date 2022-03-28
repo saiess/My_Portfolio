@@ -1,13 +1,12 @@
 /* eslint-disable @next/next/link-passhref */
 import type { NextPage } from "next";
 import { useEffect, useMemo, useRef, useState } from "react";
-import Contact from "../components/Body/Contact";
-import Projects from "../components/Body/Projects";
-import Tech from "../components/Body/Tech";
+import BodyLayout from "../components/Body/BodyLayout";
 import Header from "../components/Header/Header";
 import Hero from "../components/Hero/Hero";
 import Pen from "../components/Pendiv/Pen";
 import { Layout } from "../styles/GlobalComponents/Container.styled";
+import Image from "next/image";
 
 const Home: NextPage = () => {
   const targetRef = useRef(null);
@@ -46,20 +45,17 @@ const Home: NextPage = () => {
         <Hero />
       </Layout>
       <Pen show={!isFooter} />
-      <Layout>
-        <Projects />
-        <Tech />
-        <Contact />
-      </Layout>
+      <BodyLayout />
       <div style={{ height: "44em" }}></div>
-      {/* {!isFooter ? setShow(true) : setShow(false)} */}
       <div
         ref={targetRef}
-        className="w-full flex justify-center items-center h-20 border-t border-gray-800"
+        className="w-full flex justify-between items-center h-20 border-t border-gray-800"
       >
+        <Image src={"/b.jpg"} width={100} height={84} alt="" />
         <p className="text-slate-600 text-sm">
           Portfolio © 2022. All Rights Reserved.
         </p>
+        <p></p>
       </div>
     </div>
   );

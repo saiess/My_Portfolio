@@ -8,9 +8,9 @@ export const Pendiv = styled.div`
   margin-left: auto;
   justify-content: center;
   margin-top: 11rem;
-  margin-bottom: 11rem;
   width: 100%;
   height: 20em;
+  pointer-events: none;
 `;
 
 export const Divblock = styled.div`

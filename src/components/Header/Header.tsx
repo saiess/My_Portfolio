@@ -43,7 +43,7 @@ const Header: React.FC = () => {
         </li>
       </Div2>
       <Div3>
-        <SocialTalk href="http://github.com">
+        <SocialTalk href="mailto:saidessalami0@gmail.com">
           <p className="flex items-center">
             <span>Let s Talk</span>{" "}
             <MdOutlineArrowRightAlt className="ml-2 text-2xl" />{" "}

@@ -21,6 +21,18 @@ module.exports = {
   rules: {
     "require-jsdoc": "off",
     "react-hooks/exhaustive-deps": "off",
+    "@typescript-eslint/no-unused-vars": ["warn"],
+    "object-curly-newline": ["off"],
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        js: "never",
+        jsx: "never",
+        ts: "never",
+        tsx: "never",
+      },
+    ],
   },
   settings: {
     react: {

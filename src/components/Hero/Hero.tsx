@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import { Heroleft, Inheroleft, Section } from "./Hero.styled";
@@ -38,13 +39,16 @@ const Hero: React.FC = () => {
               Hello
             </span>
             <h1 className="text-8xl pt-3 text-slate-300 font-bold">
-              I'm ElMehdi Rammach.
+              I'm Said Essalami.
             </h1>
             <p className="text-xl pt-6 text-slate-300">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam
-              quae mollitia laboriosam consequuntur modi iure dolor repellendus
-              enim aut! Eius quisquam harum veritatis mollitia, voluptas non
-              voluptatem odit fugit eum.
+              Junior fullstack developer with experience in a range of
+              technologies in the web development world, and a keen interest in
+              front-end development. good customer contact and a great ability
+              to listen to and adapt to the conditions of work, appreciates team
+              work very much, seeking opportunities to leverage experiences and
+              skills in Front-end Developement, Animation, Illustration, 3D,
+              Product Design (UI/UX).
             </p>
           </Trail>
         </Inheroleft>

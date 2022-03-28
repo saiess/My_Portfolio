@@ -16,38 +16,41 @@ const Tech: React.FC = () => {
         <div className="grid grid-cols-2 pt-6 gap-8 justify-items-center items-center justify-center">
           <Card>
             <div className="rounded-full w-28 h-28 text-5xl border relative flex justify-center items-center border-cyan-500 text-cyan-500 hover:text-white">
-              <BiCommand />
+              <BiDesktop />
             </div>
-            <span className="text-4xl font-bold">First</span>
+            <span className="text-4xl font-bold">Front-End</span>
             <p className="text-center w-4/5">
-              The technological revolution is changing aspect
-            </p>
-          </Card>
-          <Card>
-            <div className="rounded-full w-28 h-28 text-5xl border relative flex justify-center items-center border-cyan-500 text-cyan-500 hover:text-white">
-              <RiProjectorLine />
-            </div>
-            <span className="text-4xl font-bold">Second</span>
-            <p className="text-center w-4/5">
-              The technological revolution is changing aspect
+              Html | CSS | Sass | Bootstrap | TailwindCSS | Styled components |
+              JavaScript | TypeScript | ReactJS | VueJS | NextJs | React native
+              (Mobile) | Redux.
             </p>
           </Card>
           <Card>
             <div className="rounded-full w-28 h-28 text-5xl border relative flex justify-center items-center border-cyan-500 text-cyan-500 hover:text-white">
               <BiData />
             </div>
-            <span className="text-4xl font-bold">Third</span>
+            <span className="text-4xl font-bold">Back-End</span>
             <p className="text-center w-4/5">
-              The technological revolution is changing aspect
+              NodeJS | Express | MVC | Laravel | PHP | MySQL | MongoDB | NestJs.
+            </p>
+          </Card>
+          <Card>
+            <div className="rounded-full w-28 h-28 text-5xl border relative flex justify-center items-center border-cyan-500 text-cyan-500 hover:text-white">
+              <RiProjectorLine />
+            </div>
+            <span className="text-4xl font-bold">UI / UX</span>
+            <p className="text-center w-4/5">
+              Adobe XD | Adobe Photoshop | Adobe Illustrator | Figma
             </p>
           </Card>
           <Card>
             <div className="rounded-full w-28 h-28 text-5xl border relative flex justify-center items-center border-cyan-500 text-cyan-500">
-              <BiDesktop />
+              <BiCommand />
             </div>
-            <span className="text-4xl font-bold">Fourth</span>
+            <span className="text-4xl font-bold">Utils</span>
             <p className="text-center w-4/5">
-              The technological revolution is changing aspect
+              Conception UML | Méthodologie Scrum | Git | GitHub | REST API |
+              Eslint | Prettier | Husky | Swagger | GraphQL.
             </p>
           </Card>
         </div>
