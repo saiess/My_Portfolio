@@ -7,6 +7,11 @@ export const Section = styled.div`
   margin-top: 6rem;
   width: 100%;
   height: 60vh;
+  @media (max-width: 768px) {
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 export const Heroleft = styled.div`
@@ -20,6 +25,9 @@ export const Inheroleft = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  @media (max-width: 768px) {
+
+  }
 `;
 
 export const Divpic = styled.div`
@@ -32,6 +40,8 @@ export const Divpic = styled.div`
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  @media (max-width: 768px) {
+  }
 }
 
 

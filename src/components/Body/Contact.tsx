@@ -18,10 +18,10 @@ import {
 const Contact: React.FC = () => {
   return (
     <div className="w-full flex justify-center">
-      <div className="w-4/5 flex flex-col mt-24">
+      <div className="md:w-4/5 flex flex-col mt-24">
         <div className="w-20 h-2 rounded-3xl bg-gradient-to-r from-cyan-500 to-orange-500" />
-        <h1 className="text-5xl my-6 text-fuchsia-600">Contact</h1>
-        <p className="text-3xl my-2 text-slate-300">
+        <h1 className="text-2xl md:text-5xl my-6 text-fuchsia-600">Contact</h1>
+        <p className="md:text-3xl text-justify my-2 text-slate-300">
           Let’s make great things together.
           <br />
           Today, it takes an artist to make human and product interaction
@@ -54,7 +54,7 @@ const Contact: React.FC = () => {
             </div>
           </div>
 
-          <div className="w-2/6 h-full flex flex-col items-center justify-center">
+          <div className="md:w-2/6 w-64 md:h-full flex flex-col items-center justify-center">
             <ContactImageDiv>
               <ContactPic src="/p.jpg" />
             </ContactImageDiv>

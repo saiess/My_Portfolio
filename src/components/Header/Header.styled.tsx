@@ -5,7 +5,7 @@ export const Container = styled.div`
   justify-content: space-between;
   padding: 1rem;
   padding-top: 2rem;
-  width: 70vw;
+  width: 100%;
 `;
 
 export const Div1 = styled.div`
@@ -13,7 +13,6 @@ export const Div1 = styled.div`
   flex-direction: row;
   align-content: center;
   align-items: center;
-
   width: 20%;
 `;
 export const Div2 = styled.div`
@@ -21,6 +20,10 @@ export const Div2 = styled.div`
   justify-content: space-evenly;
   align-items: center;
   width: 40%;
+
+  @media (max-width: 768px) {
+    margin-top: 4rem;
+  }
 `;
 export const Div3 = styled.div`
   display: flex;
@@ -41,6 +44,9 @@ export const NavLink = styled.a`
     cursor: pointer;
     text-decoration: underline;
   }
+  @media (max-width: 768px) {
+    font-size: 0.8rem;
+  }
 `;
 
 // Social Icons
@@ -55,5 +61,9 @@ export const SocialTalk = styled.a`
     background-color: #212d45;
     transform: scale(1.2);
     cursor: pointer;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 0.8rem;
   }
 `;

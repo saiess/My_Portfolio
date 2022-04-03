@@ -31,17 +31,17 @@ const Hero: React.FC = () => {
       <Heroleft>
         <Inheroleft>
           <Trail open={true}>
-            <span className="text-fuchsia-400 pb-4 text-lg italic">
+            <span className="text-fuchsia-400 pb-4 text-base md:text-lg italic">
               ~ Introducing
             </span>
             <span className="pt-8"> </span>
-            <span className="text-5xl pt-8 text-slate-300 font-bold">
+            <span className="text-2xl md:text-5xl pt-8 text-slate-300 font-bold">
               Hello
             </span>
-            <h1 className="text-8xl pt-3 text-slate-300 font-bold">
+            <h1 className="text-6xl md:text-8xl pt-3 text-slate-300 font-bold">
               I'm Said Essalami.
             </h1>
-            <p className="text-xl pt-6 text-slate-300">
+            <p className="text-base md:text-xl pt-6 text-slate-300">
               Junior fullstack developer with experience in a range of
               technologies in the web development world, and a keen interest in
               front-end development. good customer contact and a great ability

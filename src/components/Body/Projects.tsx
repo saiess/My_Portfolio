@@ -7,27 +7,28 @@ import Link from "next/link";
 const Projects: React.FC = () => {
   return (
     <div className="w-full flex justify-center">
-      <div className="w-4/5 flex flex-col mt-24">
+      <div className="w-full md:w-4/5 flex flex-col mt-24">
         <div className="w-20 h-2 rounded-3xl bg-gradient-to-r from-cyan-500 to-orange-500" />
-        <h1 className="text-5xl my-6 text-fuchsia-600">Projects</h1>
+        <h1 className="text-3xl md:text-5xl my-6 text-fuchsia-600">Projects</h1>
         <div className="flex flex-col pt-6 gap-40 justify-items-center items-center justify-center">
           <div className="w-full flex flex-col justify-between">
-            <span className="text-orange-400 pb-4 pl-8 text-lg italic">
+            <span className="text-orange-400 pb-4 pl-8 md:text-lg italic">
               ~ Project 1
             </span>
 
-            <div className="w-full flex justify-between">
+            <div className="w-full flex flex-col md:flex-row justify-between">
               <ProjectInfo>
-                <h1 className="text-slate-300 text-4xl pb-8 font-bold">
-                  interactive Design Website Rental Car
+                <h1 className="text-slate-300 text-2xl md:text-4xl pb-8 font-bold">
+                  NFTs Marketplace website Cryptom.
                 </h1>
-                <p className="text-slate-300 text-lg mb-6 font-bold">
+                <p className="text-slate-300 md:text-lg mb-6 font-bold">
                   Description: <br />
-                  an example of interactive design website for Renting various
-                  kind of vehicles.
+                  fully responsive and interactive website NFTs Marketplace,
+                  Start Selling & Growing.
                   <br />
                   Technologies: <br />
-                  Javascript | HTML5 | CSS3.
+                  ReactJs ( NextJs ) | Typescript | Tailwind CSS | NodeJs(
+                  NestJs) | MongoDB | Redux Toolkit | Gsap3.
                 </p>
                 <Link href="https://saiess.github.io/Projet-rental-car-website/">
                   <a className="bg-orange-600 text-base py-2 px-4 rounded-lg">
@@ -36,32 +37,30 @@ const Projects: React.FC = () => {
                 </Link>
               </ProjectInfo>
               <ProjectCard>
-                <ProjectPic src="/RentalCar.png" className="rotate-12" />
-                {/* <Image src={car} alt="" className="rounded-3xl rotate-12"/> */}
+                <ProjectPic src="/nft.png" className="rotate-12" />
               </ProjectCard>
             </div>
           </div>
           <div className="w-full flex flex-col justify-between text-6xl font-bold">
-            <span className="text-orange-400 pb-4 pl-8 text-lg italic">
+            <span className="text-orange-400 pb-4 pl-8 text-base md:text-lg italic">
               ~ Project 2
             </span>
 
-            <div className="w-full flex justify-between">
-              <ProjectCard>
-                <ProjectPic src="/vac.png" className="rotate-12" />
+            <div className="w-full flex flex-col-reverse md:flex-row justify-between">
+              <ProjectCard className="md:mt-0 mt-20">
+                <ProjectPic src="/RentalCar.png" className="rotate-12" />
               </ProjectCard>
               <ProjectInfo>
-                <h1 className="text-slate-300 text-4xl pb-8 font-bold">
-                  Covid 19 Vaccination Campaign
+                <h1 className="text-slate-300 text-2xl md:text-4xl ml:pb-8 font-bold">
+                  interactive Design Website Rental Car
                 </h1>
-                <p className="text-slate-300 text-xl mt-4 font-bold">
+                <p className="text-slate-300 text-base md:text-lg mt-4 font-bold">
                   Description: <br />
-                  Covid 19 Vaccination Campaign an automated system in the form
-                  of a web application (Node Js: Api Rest/ React Js).
+                  an example of interactive design website for Renting various
+                  kind of vehicles.
                   <br />
                   Technologies: <br />
-                  ReactJs | Typescript | Tailwind CSS | NodeJs(express) |
-                  MongoDB.
+                  Javascript | HTML5 | CSS3.
                 </p>
                 <Link href="https://github.com/saiess/Projet-Fil-Rouge-SWAPI-Laravel">
                   <a className="bg-orange-600 text-base py-2 px-4 rounded-lg">
@@ -77,12 +76,12 @@ const Projects: React.FC = () => {
               ~ Project 3
             </span>
 
-            <div className="w-full flex justify-between">
+            <div className="w-full flex flex-col md:flex-row justify-between">
               <ProjectInfo>
-                <h1 className="text-slate-300 text-4xl pb-8 font-bold">
+                <h1 className="text-slate-300 text-2xl md:text-4xl pb-8 font-bold">
                   Swapi Exchange goods Website
                 </h1>
-                <p className="text-slate-300 text-xl font-bold">
+                <p className="text-slate-300 text-base md:text-lg font-bold">
                   Description: <br />
                   The SWAPI project is simply a modernized barter website
                   application that allows users to trade items for something
@@ -98,9 +97,8 @@ const Projects: React.FC = () => {
                 </Link>
               </ProjectInfo>
 
-              <ProjectCard>
+              <ProjectCard className="md:mt-0 mt-28">
                 <ProjectPic src="/swapi.png" className="rotate-12" />
-                {/* <Image src={bi} alt="" className="w-full rounded-3xl" /> */}
               </ProjectCard>
             </div>
           </div>

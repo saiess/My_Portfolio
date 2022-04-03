@@ -36,11 +36,9 @@ const Home: NextPage = () => {
   }, [targetRef, options]);
 
   return (
-    <div className="w-full flex flex-col items-center justify-center lololo">
+    <div className="flex flex-col items-center justify-center">
       <Layout>
-        <div className="w-full flex justify-center">
           <Header />
-        </div>
         <Hero />
       </Layout>
       <Pen show={!isFooter} />
@@ -50,11 +48,10 @@ const Home: NextPage = () => {
         ref={targetRef}
         className="w-full flex justify-center items-center h-20 border-t border-gray-800"
       >
-        <p className="text-slate-600 text-sm">
+        <p className="text-slate-600 text-sm text-center">
           Portfolio © 2022. All Rights Reserved{" "}
           <span className="text-red-600 font-bold">( Beta version )</span>.
         </p>
-        <p></p>
       </div>
     </div>
   );

@@ -15,42 +15,44 @@ import { MdOutlineArrowRightAlt } from "react-icons/md";
 
 const Header: React.FC = () => {
   return (
-    <Container>
-      <Div1>
-        <Link href="/">
-          <a className="flex items-center text-orange-500">
-            <RiOpenArmFill size="2em" />
-            <span className="text-xl pl-2 hover:underline">Saifolio</span>
-          </a>
-        </Link>
-      </Div1>
+    <div className="flex justify-center">
+      <Container>
+        <Div1>
+          <Link href="/">
+            <a className="flex items-center text-orange-500">
+              <RiOpenArmFill size="2em" />
+              <span className="text-xl pl-2 hover:underline">Saifolio</span>
+            </a>
+          </Link>
+        </Div1>
 
-      <Div2>
-        <li className="list-none">
-          <Link href="#projects">
-            <NavLink>Projects</NavLink>
-          </Link>
-        </li>
-        <li className="list-none">
-          <Link href="#tech">
-            <NavLink>Technologies</NavLink>
-          </Link>
-        </li>
-        <li className="list-none">
-          <Link href="#about">
-            <NavLink>About</NavLink>
-          </Link>
-        </li>
-      </Div2>
-      <Div3>
-        <SocialTalk href="mailto:saidessalami0@gmail.com">
-          <p className="flex items-center">
-            <span>Let s Talk</span>{" "}
-            <MdOutlineArrowRightAlt className="ml-2 text-2xl" />{" "}
-          </p>
-        </SocialTalk>
-      </Div3>
-    </Container>
+        <Div2>
+          <li className="list-none">
+            <Link href="#projects">
+              <NavLink>Projects</NavLink>
+            </Link>
+          </li>
+          <li className="list-none">
+            <Link href="#tech">
+              <NavLink>Technologies</NavLink>
+            </Link>
+          </li>
+          <li className="list-none">
+            <Link href="#about">
+              <NavLink>About</NavLink>
+            </Link>
+          </li>
+        </Div2>
+        <Div3>
+          <SocialTalk href="mailto:saidessalami0@gmail.com">
+            <p className="flex items-center">
+              <span>Let s Talk</span>{" "}
+              <MdOutlineArrowRightAlt className="ml-2 text-2xl" />{" "}
+            </p>
+          </SocialTalk>
+        </Div3>
+      </Container>
+    </div>
   );
 };
 
