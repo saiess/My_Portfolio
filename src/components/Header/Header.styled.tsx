@@ -30,6 +30,7 @@ export const Div3 = styled.div`
   justify-content: space-evenly;
   align-items: center;
   width: 30%;
+  pointer-events: none;
   @media (max-width: 768px) {
   }
 `;
