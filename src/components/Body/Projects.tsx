@@ -62,7 +62,7 @@ const Projects: React.FC = () => {
                   Technologies: <br />
                   Javascript | HTML5 | CSS3.
                 </p>
-                <Link href="https://github.com/saiess/Projet-Fil-Rouge-SWAPI-Laravel">
+                <Link href="https://saiess.github.io/Projet-rental-car-website/">
                   <a className="bg-orange-600 text-base py-2 px-4 rounded-lg">
                     View More
                   </a>
@@ -90,7 +90,7 @@ const Projects: React.FC = () => {
                   Technologies: <br />
                   Laravel | Javascript | SASS | CSS3 | HTL5 | Bootstrap | Mysql.
                 </p>
-                <Link href="https://github.com/saiess/vaccination-client">
+                <Link href="https://github.com/saiess/Projet-Fil-Rouge-SWAPI-Laravel">
                   <a className="bg-orange-600 text-base py-2 px-4 rounded-lg">
                     View More
                   </a>
