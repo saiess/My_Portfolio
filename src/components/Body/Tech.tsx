@@ -8,7 +8,9 @@ const Tech: React.FC = () => {
     <div className="w-full flex justify-center">
       <div className="md:w-4/5 flex flex-col mt-24">
         <div className="w-20 h-2 rounded-3xl bg-gradient-to-r from-cyan-500 to-orange-500" />
-        <h1 className="text-3xl md:text-5xl my-6 text-fuchsia-600">Technologies</h1>
+        <h1 className="text-3xl md:text-5xl my-6 text-fuchsia-600">
+          Technologies
+        </h1>
         <p className="md:text-3xl my-2 text-slate-300">
           I have worked with a range a technologies in the web development
           world. From Back-end To Front-end UI/UX Design.

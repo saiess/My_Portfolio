@@ -14,6 +14,5 @@ export const Body = styled.div`
   flex-direction: column;
   align-items: center;
   @media (max-width: 768px) {
-
   }
 `;

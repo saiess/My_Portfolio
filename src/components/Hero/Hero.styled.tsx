@@ -26,7 +26,6 @@ export const Inheroleft = styled.div`
   flex-direction: column;
   justify-content: space-between;
   @media (max-width: 768px) {
-
   }
 `;
 

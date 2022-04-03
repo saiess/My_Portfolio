@@ -38,7 +38,7 @@ const Home: NextPage = () => {
   return (
     <div className="flex flex-col items-center justify-center">
       <Layout>
-          <Header />
+        <Header />
         <Hero />
       </Layout>
       <Pen show={!isFooter} />

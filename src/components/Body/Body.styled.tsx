@@ -54,7 +54,7 @@ export const ContactDiv = styled.div`
   }
   @media (max-width: 768px) {
     min-height: 40rem;
-    flex-direction:column;
+    flex-direction: column;
   }
 `;
 
