@@ -21,17 +21,23 @@ export const Div2 = styled.div`
   align-items: center;
   width: 40%;
 
+  @media (max-width: 1250px) {
+    margin-top: 3rem;
+    gap: 1rem;
+  }
   @media (max-width: 768px) {
     margin-top: 6rem;
   }
+
 `;
 export const Div3 = styled.div`
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   width: 30%;
-  pointer-events: none;
   @media (max-width: 768px) {
+    height: 60%;
+    margin-top: 1.7rem;
   }
 `;
 

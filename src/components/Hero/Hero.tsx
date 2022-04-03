@@ -53,9 +53,6 @@ const Hero: React.FC = () => {
           </Trail>
         </Inheroleft>
       </Heroleft>
-      {/* <Divpic>
-        <Imghero src="./pi.png"/>
-      </Divpic> */}
       <BgAnimation />
     </Section>
   );

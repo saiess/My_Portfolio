@@ -16,7 +16,7 @@ const Projects: React.FC = () => {
               ~ Project 1
             </span>
 
-            <div className="w-full flex flex-col md:flex-row justify-between">
+            <div className="w-full flex flex-col lg:flex-row justify-between">
               <ProjectInfo>
                 <h1 className="text-slate-300 text-2xl md:text-4xl pb-8 font-bold">
                   NFTs Marketplace website Cryptom.
@@ -46,7 +46,7 @@ const Projects: React.FC = () => {
               ~ Project 2
             </span>
 
-            <div className="w-full flex flex-col-reverse md:flex-row justify-between">
+            <div className="w-full flex flex-col-reverse lg:flex-row justify-between">
               <ProjectCard className="md:mt-0 mt-20">
                 <ProjectPic src="/RentalCar.png" className="rotate-12" />
               </ProjectCard>
@@ -76,7 +76,7 @@ const Projects: React.FC = () => {
               ~ Project 3
             </span>
 
-            <div className="w-full flex flex-col md:flex-row justify-between">
+            <div className="w-full flex flex-col lg:flex-row justify-between">
               <ProjectInfo>
                 <h1 className="text-slate-300 text-2xl md:text-4xl pb-8 font-bold">
                   Swapi Exchange goods Website
