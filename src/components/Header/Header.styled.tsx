@@ -30,6 +30,8 @@ export const Div3 = styled.div`
   justify-content: space-evenly;
   align-items: center;
   width: 30%;
+  @media (max-width: 768px) {
+  }
 `;
 
 // Navigation Links
@@ -46,6 +48,7 @@ export const NavLink = styled.a`
   }
   @media (max-width: 768px) {
     font-size: 0.8rem;
+    margin: 0rem 0.5rem;
   }
 `;
 
@@ -64,6 +67,7 @@ export const SocialTalk = styled.a`
   }
 
   @media (max-width: 768px) {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
+
   }
 `;

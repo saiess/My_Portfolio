@@ -17,7 +17,7 @@ import {
 
 const Contact: React.FC = () => {
   return (
-    <div className="w-full flex justify-center">
+    <div className="w-full flex justify-center" id ="contact">
       <div className="md:w-4/5 flex flex-col mt-24">
         <div className="w-20 h-2 rounded-3xl bg-gradient-to-r from-cyan-500 to-orange-500" />
         <h1 className="text-2xl md:text-5xl my-6 text-fuchsia-600">Contact</h1>
