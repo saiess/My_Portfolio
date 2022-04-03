@@ -39,7 +39,7 @@ const Header: React.FC = () => {
           </li>
           <li className="list-none">
             <Link href="#contact">
-              <NavLink>About</NavLink>
+              <NavLink>Contact</NavLink>
             </Link>
           </li>
         </Div2>

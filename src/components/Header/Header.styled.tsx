@@ -22,7 +22,7 @@ export const Div2 = styled.div`
   width: 40%;
 
   @media (max-width: 768px) {
-    margin-top: 4rem;
+    margin-top: 6rem;
   }
 `;
 export const Div3 = styled.div`
@@ -68,6 +68,5 @@ export const SocialTalk = styled.a`
 
   @media (max-width: 768px) {
     font-size: 0.6rem;
-
   }
 `;
