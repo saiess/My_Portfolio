@@ -28,7 +28,6 @@ export const Div2 = styled.div`
   @media (max-width: 768px) {
     margin-top: 6rem;
   }
-
 `;
 export const Div3 = styled.div`
   display: flex;

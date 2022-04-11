@@ -30,7 +30,7 @@ const Projects: React.FC = () => {
                   ReactJs ( NextJs ) | Typescript | Tailwind CSS | NodeJs(
                   NestJs) | MongoDB | Redux Toolkit | Gsap3.
                 </p>
-                <Link href="https://github.com/omegaStore-Ecom">
+                <Link href="https://omega-store-client.vercel.app/">
                   <a className="bg-orange-600 text-base py-2 px-4 rounded-lg">
                     View More
                   </a>
