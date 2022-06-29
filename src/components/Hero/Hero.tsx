@@ -42,7 +42,7 @@ const Hero: React.FC = () => {
               I'm Said Essalami.
             </h1>
             <p className="text-base md:text-xl pt-6 text-slate-300">
-              Junior fullstack developer with experience in a range of
+              Software engineer with experience in a range of
               technologies in the web development world, and a keen interest in
               front-end development. good customer contact and a great ability
               to listen to and adapt to the conditions of work, appreciates team
