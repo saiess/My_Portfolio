@@ -42,13 +42,13 @@ const Hero: React.FC = () => {
               I'm Said Essalami.
             </h1>
             <p className="text-base md:text-xl pt-6 text-slate-300">
-              Software engineer with experience in a range of
-              technologies in the web development world, and a keen interest in
-              front-end development. good customer contact and a great ability
-              to listen to and adapt to the conditions of work, appreciates team
-              work very much, seeking opportunities to leverage experiences and
-              skills in Front-end Developement, Animation, Illustration, 3D,
-              Product Design (UI/UX).
+              Software engineer with experience in a range of technologies in
+              the web development world, and a keen interest in front-end
+              development. good customer contact and a great ability to listen
+              to and adapt to the conditions of work, appreciates team work very
+              much, seeking opportunities to leverage experiences and skills in
+              Front-end Developement, Animation, Illustration, 3D, Product
+              Design (UI/UX).
             </p>
           </Trail>
         </Inheroleft>

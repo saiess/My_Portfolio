@@ -30,7 +30,7 @@ const Projects: React.FC = () => {
                   ReactJs ( NextJs ) | Typescript | Tailwind CSS | NodeJs(
                   NestJs) | MongoDB | Redux Toolkit | Gsap3.
                 </p>
-                <Link href="https://cryptom-3u8s6qwar-saiess.vercel.app/">
+                <Link href="https://cryptom-oeiakua13-saiess.vercel.app/">
                   <a className="bg-orange-600 text-base py-2 px-4 rounded-lg">
                     View More
                   </a>
